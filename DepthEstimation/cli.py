@@ -6,7 +6,7 @@ from predictor import DepthEstimationModel
 def main():
     parser = argparse.ArgumentParser(description="Depth estimation using ZoeDepth.")
     parser.add_argument("input_image", help="Path to input image..")
-    parser.add_argument("output_image", help="Path to output depth map.")
+    parser.add_argument("output_image", help="Path to output depth map..")
     args = parser.parse_args()
 
     model = DepthEstimationModel()
