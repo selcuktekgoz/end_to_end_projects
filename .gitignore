@@ -205,3 +205,4 @@ __marimo__/
 .yvenv
 outputs/
 notlar.txt
+api_images/
